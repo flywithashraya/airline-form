@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airline Name Format Application</title>
+    <style>
+        /* Your styling from before */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Airline Name Format Guide</h1>
+        <form id="manualEntryForm" action="https://formspree.io/f/xyzygdvb" method="POST">
+            <label for="airlineName">Airline Name</label>
+            <input type="text" id="airlineName" name="airlineName" required placeholder="e.g. Air India">
+            
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstName" required placeholder="e.g. John">
+            
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="lastName" required placeholder="e.g. Doe">
+            
+            <label for="title">Title</label>
+            <select id="title" name="title" required>
+                <option value="Mr">Mr</option>
+                <option value="Mrs">Mrs</option>
+                <option value="Ms">Ms</option>
+                <option value="Master">Master</option>
+            </select>
+            
+            <button type="submit">Submit Details</button>
+        </form>
+    </div>
+</body>
+</html>
